@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R u=r+x /shell/permissions 
+find -type d | xargs chmod 755 
