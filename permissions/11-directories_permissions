@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R 755 /shell/permissions 
+chmod -R u=r+x /shell/permissions 
