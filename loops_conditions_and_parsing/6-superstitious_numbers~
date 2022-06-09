@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+export a=1
+while [ $a -lt 21 ]
+do
+    case $a in
+	4)
+	    echo -e  "$a\nbad luck from China";;
+	    9)
+	      echo -e "$a\n bad luck from Japan";;
+	      17)
+		 echo "$a bad luck from Italy";;
+		 *) echo $a
+		    esac
+		    
+    ((a += 1))
+done
+shellcheck 6-superstitious_numbers
