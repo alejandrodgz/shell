@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
 export a=1
-while [ $a -lt 32 ]
+until [ ! $a -lt 11 ]
 do
     echo "Best School"
-     ((a += 5))
+     ((a += 1))
 done
-shellcheck 2-while_best_school
+shellcheck 3-until_best_school

@@ -1,0 +1,10 @@
+
+0;10;1c#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+export a=1
+until [ ! $a -lt 11 ]
+do
+    echo "Best School"
+     ((a += 1))
+done
+shellcheck 3-until_best_school
