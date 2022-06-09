@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+export a=1
+while [ $a -lt 12 ]
+do
+    echo "Best School"
+    ((a++))
+done
+shellcheck 2-while_best_school
