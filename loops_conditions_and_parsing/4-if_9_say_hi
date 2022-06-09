@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
-export a=1
+export a=0
 while [ $a -lt 10 ]
 do
     echo "Best School"
