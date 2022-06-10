@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+export a=0
+export b=0
+
+while [ $b -lt 13 ]
+do
+    if [[ $b -eq 0 ]]
+    then
+	echo "$b hours"
+	 (( b += 1))
+    elif [[ $a -eq 60 ]] 
+    then
+	
+	(( a = 0 ))
+	(( b += 1))
+	echo "$(($b-1)) hours"
+	
+    
+    else
+  
+	    echo "$a"
+	   
+    fi
+    ((a += 1))
+done
+   
+shellcheck 6-superstitious_numbers
