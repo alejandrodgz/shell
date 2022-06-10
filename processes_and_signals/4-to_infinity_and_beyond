@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 #own
 a=1
-sleep2=0
+sleep2=sleep2
 while [ a > 0 ]; do
     echo "To infinity and beyond"
-    (( sleep2 += 1))
+    sleep 2
 done
-
+shellcheck 4-to_infinity_and_beyond
