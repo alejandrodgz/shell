@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 #own
-pkill -15 "$(pgrep -f "4-to_infinity_and_beyond")"
+pkill -u root
 
-shellcheck 5-dont_stop_me_now
+shellcheck 6-stop_me_if_you_can
