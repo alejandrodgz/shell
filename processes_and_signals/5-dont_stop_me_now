@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #own
-kill -9 14515
+pkill –15 4-to_infinity_and_beyond
 shellcheck 5-dont_stop_me_now
