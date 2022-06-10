@@ -1,3 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env bash\
+#own PID
 echo "$$"
 shellcheck 0-what-is-my-pid
