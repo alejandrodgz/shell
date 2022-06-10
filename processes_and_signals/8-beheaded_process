@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 #own
-killall "7-highlander"
+kill %1
 
 shellcheck 8-beheaded_process
