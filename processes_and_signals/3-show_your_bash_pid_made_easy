@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#own
+pgrep bash -l
+shellcheck 3-show_your_bash_pid_made_easy
