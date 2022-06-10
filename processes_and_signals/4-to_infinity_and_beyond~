@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#own
+a=1
+sleep2=0
+while [ a -gt 0 ]; do
+    echo "To infinity and beyond"
+    (( sleep2 += 1))
+done
+
