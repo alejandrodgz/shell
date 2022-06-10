@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#own
+kill -9
+shellcheck 5-dont_stop_me_now
