@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#own 
+ps l
+shellcheck 0-what-is-my-pid
