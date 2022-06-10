@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 #own
-kill "$(pgrep -f "7-highlander")"
+pkill -f "7-highlander"
 
 shellcheck 5-dont_stop_me_now
