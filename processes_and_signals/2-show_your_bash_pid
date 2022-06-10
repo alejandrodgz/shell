@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#own
+# shellcheck disable=SC2009
+ps -auxf | grep -h 'bash'
+shellcheck 0-what-is-my-pid
