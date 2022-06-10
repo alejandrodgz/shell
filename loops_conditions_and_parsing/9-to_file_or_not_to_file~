@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+# comments here
+# exist,not empty, not regular
+if [ -a school ] && [ -s school ] && [-d school];
+then echo "school file exists"
+
+     echo "school file is not empty"
+     # exist,not empty, regular
+elif [ -a school ] && [ -s school ] && [ ! -d school];
+then echo "school file exists"
+     echo "school file is not empty"
+
+     echo "school is a regular file"
+     # exist,empty,regular
+elif
+    [ -a school ] && [ ! -s school ] && [ ! -d school];
+then
+    echo "school file exists"
+    echo "school file is empty"
+    echo "school is a regular file"
+elif
+    [ -a school ] && [ ! -s school ] && [-d school];
+then
+    echo "school file exists"
+    echo "school file is empty"
+else
+    echo school file does not exist
+    fi
+shellcheck 9-to_file_or_not_to_file
