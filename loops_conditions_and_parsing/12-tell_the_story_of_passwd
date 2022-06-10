@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# comments here
+IFS=":"
+FILE="/etc/passwd"
+
+while read -r FILE; do
+    IF 
+    echo "$FILE" | cut -d ":" -f1,3,6
+done < "$FILE"
+
+shellcheck 11-read_and_cut
